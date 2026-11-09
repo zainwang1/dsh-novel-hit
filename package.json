@@ -1,0 +1,35 @@
+{
+  "name": "dsh-novel-hit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness bundle that registers 7 Chinese web-novel writing skills (topic, golden three chapters, outline, hooks, characters, dialogue, data diagnosis).",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "novel",
+    "web-novel",
+    "writing"
+  ],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills/*.md",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

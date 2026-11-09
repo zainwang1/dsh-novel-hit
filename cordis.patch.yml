@@ -1,0 +1,4 @@
+- insert:
+    - id: novel-hit
+      name: dsh-novel-hit
+      config: {}
